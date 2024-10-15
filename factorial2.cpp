@@ -13,4 +13,4 @@ int main(){
     cin>>num;
     for(i=1; i<=num; i+=1){factorial*=i;}
     cout<<factorial;
-    return 0; }
+    return 0;}

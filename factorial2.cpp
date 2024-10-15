@@ -4,6 +4,7 @@ int main(){
     system("cls");
     int num;
     int factorial=1;
+    
 
 
 

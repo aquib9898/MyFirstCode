@@ -20,7 +20,7 @@ int main(){
                     if(isprime==1){
                         cout<<i<<endl;}else{(void)0;}
                     }
-                    
+                     
                 }
 
             }

@@ -1,13 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int num1;
     int num2;
-    
-    cout << "Enter the first number: " << endl;
+
+    cout << " Enter the first number: " << endl;
     cin >> num1;
-    
+
     cout << "Enter the second number: " << endl;
     cin >> num2;
 
@@ -16,9 +17,12 @@ int main() {
     cout << "The product is: " << (num1 * num2) << endl;
 
     // Check for division by zero
-    if (num2 != 0) {
+    if (num2 != 0)
+    {
         cout << "The quotient is: " << (num1 / num2) << endl;
-    } else {
+    }
+    else
+    {
         cout << "Division by zero is not allowed!" << endl;
     }
 

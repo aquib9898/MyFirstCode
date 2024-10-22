@@ -7,7 +7,7 @@ int main(){
     int i;
     cout<<"enter a number to check if its a prime  "<<endl;
     cin>>num;
-    if(num<=1){cout<<"number is not prime  ";}
+    if(num<=1){cout<<" number is not prime  ";}
     else{
         for(i=2;i<num;i+=1){
             if(num%i==0){prime=false;}else{(void)0;}

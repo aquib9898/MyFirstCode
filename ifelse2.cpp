@@ -9,7 +9,7 @@ int main(){
     int num2;
     cout<<"enter second number"<<endl;
     cin>>num2;
-    cout<<"enter your Operation to perform"<<endl;
+    cout<<" enter your Operation to perform"<<endl;
     cin>>choice;
     if(choice=="sum" || choice=="SUM" || choice=="Sum"|| choice=="+" || choice=="add" || choice=="ADD"||choice=="Add"){cout<<num1+num2;}
     else if(choice=="difference" || choice=="DIFFERENCE" || choice=="Difference"|| choice=="-" || choice=="subtract" || choice=="SUBTRACT"||choice=="Subtract"){

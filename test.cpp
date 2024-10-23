@@ -7,7 +7,7 @@ int main()
     int num;
     int i;
     int j;
-    cout << " enter number to find prime numbers under " << endl;
+    cout << "enter number to find prime numbers under " << endl;
     cin >> num;
     if (num <= 2)
     {

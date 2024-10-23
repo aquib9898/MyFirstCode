@@ -10,7 +10,7 @@ int main(){
 
     
     int i;
-    cout<<"enter number to find factorial  "<<endl;
+    cout<<"enter number to find factorial     "<<endl;
     cin>>num;
     for(i=1; i<=num; i+=1){factorial*=i;}
     cout<<factorial;

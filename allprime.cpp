@@ -9,7 +9,7 @@ int main(){
     cout<<"enter number to find prime numbers under  "<<endl;
     cin>>num;
     if(num<=2){
-        cout<<"no primes under "<<num<<endl;}
+        cout<<"noc primes under "<<num<<endl;}
         else{cout<<"number of primes under "<<num<<" are "<<endl;
             for(i=3;i<num;i+=1){
                 for(j=2;j<i;j+=1){
